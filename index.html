@@ -6,14 +6,29 @@
   <title>Lesespiele für Grundschulkinder | Lesen, entdecken, erzählen</title>
   <meta name="description" content="Spielerische Leseförderung für Grundschulkinder: kurze Texte, Würfelspiele, Suchspiele und kleine Geschichten zum gemeinsamen Lesen, Entdecken und Erzählen.">
   <link rel="canonical" href="https://lesespiele.heike-amthor.de/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <main class="page">
     <header class="hero">
       <h1>Lesen – Entdecken – Erzählen</h1>
-      <img class="hero-image" src="https://raw.githubusercontent.com/hamthor-web/Spielesammlung-fuer-Lesefreude-/main/start-wiese.png" alt="Lesespiele mit Würfeln, Geschichten und verrückten Aufgaben">
-      <p class="lead">Kurze Texte, Bilder und kleine Aufgaben machen Lust aufs Lesen – gemeinsam, spielerisch und ohne Leistungsdruck.</p>
+
+      <div class="hero-frame">
+        <div class="hero-frame-inner">
+          <img
+            class="hero-image"
+            src="https://raw.githubusercontent.com/hamthor-web/Spielesammlung-fuer-Lesefreude-/main/start-wiese.png"
+            alt="Lesen, entdecken, erzählen – Lesespaß für Grundschulkinder">
+        </div>
+      </div>
+
+      <p class="lead">
+        Kurze Texte, Bilder und kleine Aufgaben machen Lust aufs Lesen –
+        gemeinsam, spielerisch und ohne Leistungsdruck.
+      </p>
     </header>
 
     <section class="intro">
@@ -22,22 +37,28 @@
       <p>Besonders schön funktioniert die Sammlung gemeinsam mit Eltern, Großeltern, Lesepatinnen und Lesepaten oder anderen Begleitpersonen. So wird aus einer kleinen Leseaufgabe schnell ein Gespräch oder eine Geschichte.</p>
     </section>
 
-    <section id="spiele" class="games">
-      <article class="game">
-        <img src="https://raw.githubusercontent.com/hamthor-web/Spielesammlung-fuer-Lesefreude-/main/kachel-wuerfeln.webp" alt="Würfelspiele">
-        <h2>Würfeln</h2>
+    <section class="games" aria-label="Spielbereiche">
+      <article class="game-card game-card--yellow">
+        <div class="game-image-frame">
+          <img src="https://raw.githubusercontent.com/hamthor-web/Spielesammlung-fuer-Lesefreude-/main/kachel-wuerfeln.webp" alt="Würfelspiele">
+        </div>
+        <h3>Würfeln</h3>
         <p>Würfeln, ziehen, lesen – der Zufall bestimmt, welche kleine Aufgabe oder Geschichte als Nächstes wartet.</p>
       </article>
 
-      <article class="game">
-        <img src="https://raw.githubusercontent.com/hamthor-web/Spielesammlung-fuer-Lesefreude-/main/kachel-geschichten.webp" alt="Such- und Geschichtenspiele">
-        <h2>Suchen &amp;<br>Geschichten</h2>
+      <article class="game-card game-card--green">
+        <div class="game-image-frame">
+          <img src="https://raw.githubusercontent.com/hamthor-web/Spielesammlung-fuer-Lesefreude-/main/kachel-geschichten.webp" alt="Interaktive Geschichten">
+        </div>
+        <h3>Suchen &amp; Geschichten</h3>
         <p>Genau hinschauen, kurze Texte verstehen und in Bildern kleine Geschichten entdecken.</p>
       </article>
 
-      <article class="game">
-        <img src="https://raw.githubusercontent.com/hamthor-web/Spielesammlung-fuer-Lesefreude-/main/kachel-verruecktes.webp" alt="Verrückte Lesespiele">
-        <h2>Verrücktes</h2>
+      <article class="game-card game-card--purple">
+        <div class="game-image-frame">
+          <img src="https://raw.githubusercontent.com/hamthor-web/Spielesammlung-fuer-Lesefreude-/main/kachel-verruecktes.webp" alt="Verrückte Lesespiele">
+        </div>
+        <h3>Verrücktes</h3>
         <p>Wenn etwas nicht so ist, wie es sein sollte, wird Lesen zum Detektivspiel – und manchmal herrlich albern.</p>
       </article>
     </section>
@@ -56,7 +77,10 @@
 
   <footer>
     <p>© Heike Amthor</p>
-    <nav><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a></nav>
+    <nav>
+      <a href="impressum.html">Impressum</a>
+      <a href="datenschutz.html">Datenschutz</a>
+    </nav>
   </footer>
 </body>
 </html>
